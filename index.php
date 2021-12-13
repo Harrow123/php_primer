@@ -5,14 +5,14 @@
     <!-- Basic HTML -->
     <h1><?php echo $title?></h1>
     <br/>
-   <?php
-   /*Basic PHP*/
-    echo "Hello PHP";
-    echo "<br/>";
-    echo "Second Line";
-    echo "<br/>";
+    <?php
+        /*Basic PHP*/
+        echo "Hello PHP";
+        echo "<br/>";
+        echo "Second Line";
+        echo "<br/>";
     
-    //Declare variable
+        //Declare variable
         $name = "Kenroy Harrow";
         $age = 30;
         /*Echo Variable*/
@@ -22,6 +22,11 @@
 
         echo "<h1> My Name is: $name </h1>"
 
-?>
+    ?>
     <button type="button" class="btn btn-dark">CLICK ME!</button>
-<?php require 'includes/footer.php' ?>
+    <button type="button" class="btn btn-primary">CLICK ME!</button>
+    <button type="button" class="btn btn-success">CLICK ME!</button>
+    
+    <?php 
+        require 'includes/footer.php' 
+    ?>
